@@ -1,0 +1,35 @@
+body{
+    background-color: lightblue;
+}
+
+.con{
+    background-color: coral;
+}
+
+.sends{
+    display: flex;
+    background-color: cornflowerblue;
+    justify-content: space-evenly;
+}
+
+.sends a:hover{
+    display: flex;
+    background-color: darkorchid;
+    justify-content: space-evenly;
+    transform: scale(1.2) rotate(20deg);
+}
+
+h3{
+    background-color: cornflowerblue;
+}
+
+h3:hover{
+    animation: bounce; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */ 
+}
+
+img:hover{
+    transform: scale(0.9) rotate(20deg);
+    animation: bounce; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+}
